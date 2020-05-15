@@ -1,0 +1,12 @@
+Machine learning includes:(Used in Artificial intelligence,Robotics)
+             * Import data
+             * clean the data
+             * Split the data into training/test sets
+             * create a model
+             * train the model
+             * make preditions
+             * evaluate & improve
+popular libraries used in machine learning:
+            * numpy---->provides a multidimensional array
+            * pandas---->similar to excel spread sheet
+            * matplotlib---> To create a 2 dimensional array (graphs)
