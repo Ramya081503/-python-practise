@@ -1,0 +1,14 @@
+getattr()
+       getattr will return the value from attribute which was created from object,if it is not having any value it will return deafult value{"every third attribute is default value"}
+ex: print('field of employee is=',getattr(emp,"emp_field","software"))
+
+hasattr()
+      hasattr will check the attribute which we specified is there or not
+ex: print(hasattr(s,'rollnumber'))
+
+setattr()
+     setattr will check there is an attribute or not if there is no attribute it will create it.
+ex: print(setattr(s,'rollnumber',48))
+
+delattr()
+     delattr will delete the attribute which we specified.
