@@ -1,0 +1,22 @@
+PATCH:
+      Temporarily replace your target with a different object.
+
+def  foo():
+       x = db_write()
+       return x
+000
+def  db_write():
+
+@patch('package.module.ClassName')
+
+
+@patch('my_module.db_write')
+
+
+
+import my_module
+
+@patch('my_module.db_write')
+def test_foo(self,mock_write):
+x = my_module.foo()
+self.assertEqual(x, 10)
