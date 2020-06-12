@@ -1,11 +1,14 @@
 class Queue:
     def __init__(self):
         self.items = []
+
     def is_empty(self):
         return self.items == []
-    print('queue is empty')
+        print('queue is empty')
+
     def put(self, item):
         self.items.insert(0,item)
+
     def get(self):
         return self.items.pop()
 

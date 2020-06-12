@@ -4,21 +4,14 @@ from stack import Stack
 
 class TestStack(unittest.TestCase):
 
-    def test_isempty_push1_pop1(self):
+    def test_pop_from_empty_stack_raising_an_error(self):
         s = Stack()
-        s.push(5)
+        s.push(2)
+        s.push(4)
         s.pop()
-        self.assertEqual(True, s.isempty())
-        print('stack is empty')
+        s.pop()
+        s.pop()
 
-    def test_push_pop(self):
-        s = Stack()
-        s.push(8)
-        s.push(9)
-        self.assertEqual(s.items, [8, 9])
-        s.pop()
-        self.assertEqual(s.items, [8])
-        print('one push one pop succesfully')
 
 
 if __name__ == '__main__':

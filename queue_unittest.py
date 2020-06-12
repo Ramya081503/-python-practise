@@ -26,6 +26,8 @@ class TestQueue(unittest.TestCase):
         q.put(1)
         q.get()
         self.assertEqual(False, q.isempty())
+        self.assertEqual(q.items, [3])
+        self.assertEqual(q.size(), 1)
 
 
 if __name__ == '__main__':
