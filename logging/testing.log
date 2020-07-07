@@ -1,0 +1,5 @@
+2020-07-06 15:48:10,301 :: <module> :: 6 :: this is debug message
+2020-07-06 15:48:10,301 :: <module> :: 7 :: this is info message
+2020-07-06 15:48:10,301 :: <module> :: 8 :: this is warning message
+2020-07-06 15:48:10,301 :: <module> :: 9 :: this is error message
+2020-07-06 15:48:10,301 :: <module> :: 10 :: this is critical message
